@@ -396,7 +396,7 @@ export function GlobeComponent() {
 
 
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto bg-background relative w-full">
+    <div className="flex flex-row items-center justify-center  h-screen md:h-auto bg-background relative w-[90%] mx-auto">
       <div className="max-w-[90%] mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4 flex flex-col md:flex-row items-center">
 
         {/* Text Container */}
@@ -415,11 +415,11 @@ export function GlobeComponent() {
           className="flex-1 flex flex-col items-center md:items-start text-center md:text-left"
         >
           <h2 className="text-xl md:text-4xl font-bold text-second">
-            <span className="text-secondDark">Learn Go {" "}</span>from anywhere in the world
+            <span className="text-highlight">Learn Go {" "}</span>from anywhere in the world
           </h2>
           <p className="text-base md:text-lg font-normal text-first dark:text-neutral-200 max-w-[80%] mt-2">
             Here at you can learn golang in hands-on manner, you will not get into tutorial hell, and learn the best practises.
-            You can also see how you are doing in comaprisons to other
+            You can also track your progress
           </p>
         </motion.div>
 
