@@ -19,7 +19,7 @@ export default function Navbar() {
         </Link>
       </div>
 
-      <ul className="flex sm:gap-7 text-second">
+      <ul className="flex text-second">
         {session && navItems.map(({ title, link }) => (
           <li key={link}>
             <Link href={link} className="hover:text-secondDark hover:bg-layerLight p-2 px-6 rounded-lg duration-100">{title}</Link>

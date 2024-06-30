@@ -14,6 +14,7 @@ module.exports = {
         layer: "#0F1117",
         first: "#FFF1E6",
         second: "#FF933F",
+        secondDark: "#FF7000",
         layerLight: "#212734",
         input: "#151821",
       },
