@@ -33,7 +33,7 @@ export function UseCases({ leftImg, rightImg }: UseCasesProps) {
           <div className="w-1/2 flex flex-col gap-12">
             <h1 className="text-second text-3xl font-semibold">Learn new concepts with in-depth articles</h1>
             <p className="text-highlight w-10/12">Dive into the world of Go programming with Gophers Articles, your ultimate resource for mastering this powerful language from the ground up.
-              Whether you're a complete beginner or a programmer looking to add Go to your repertoire,
+              Whether you are a complete beginner or a programmer looking to add Go to your repertoire,
               our articles are designed to guide you through new concepts at a comfortable pace, from 0 to 100 difficulty level.</p>
             <DualButtons />
           </div>

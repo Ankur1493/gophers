@@ -2,6 +2,7 @@ import { GlobeComponent } from "@/components/Globe";
 import { Tagline } from "@/components/Tagline";
 import { Features } from "@/components/Features";
 import { UseCases } from "@/components/UseCases";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Features />
       <UseCases leftImg={true} />
       <UseCases rightImg={true} />
+      <Footer />
     </div>
   );
 }
