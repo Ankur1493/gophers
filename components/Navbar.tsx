@@ -32,10 +32,10 @@ export default function Navbar() {
       <div className="flex">
         {!session ? (
           <Link href="/auth/login">
-            <Button className="bg-gradient-to-r from-layer to-layerLight w-[180px] py-2 text-[20px] rounded-lg text-second border border-layerLight   hover:text-highlight duration-100">Login</Button>
+            <Button className="bg-gradient-to-r from-layer to-layerLight w-[180px] py-2 text-[20px] rounded-lg text-second border border-gray-800   hover:text-highlight duration-100">Login</Button>
           </Link>
         ) : (
-          <Button className="bg-gradient-to-r from-layer to-layerLight w-[180px] py-2 text-[20px] rounded-lg text-second border border-layerLight hover:text-highlight duration-100">Sign out</Button>
+          <Button className="bg-gradient-to-r from-layer to-layerLight w-[180px] py-2 text-[20px] rounded-lg text-second border border-gray-800 hover:text-highlight duration-100">Sign out</Button>
         )}
       </div>
     </div>

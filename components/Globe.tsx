@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
+import { HeadlineHighlight } from "./HeadlineHighlight";
 
 const World = dynamic(() => import("@/components/ui/globe").then((m) => m.World), {
   ssr: false,
@@ -414,9 +415,12 @@ export function GlobeComponent() {
           }}
           className="flex-1 flex flex-col items-center md:items-start text-center md:text-left"
         >
-          <h2 className="text-xl md:text-4xl font-bold text-second">
-            <span className="text-highlight">Learn Go {" "}</span>from anywhere in the world
-          </h2>
+          <div className="flex flex-col text-left">
+            <h2 className="text-xl md:text-4xl font-bold text-highlight">
+              Learn Go
+            </h2>
+            <HeadlineHighlight />
+          </div>
           <p className="text-base md:text-lg font-normal text-first dark:text-neutral-200 max-w-[80%] mt-2">
             Here at you can learn golang in hands-on manner, you will not get into tutorial hell, and learn the best practises.
             You can also track your progress
